@@ -3,8 +3,8 @@ A tool to visualize convolutional, ReLU, and pooling layer activations on an inp
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/blockchaindev91/pytorch-convis/master/examples/output/tubingen-conv3_2-16.jpg" height="250px">
-<img src="https://raw.githubusercontent.com/blockchaindev91/pytorch-convis/master/examples/output/tubingen_vgg19_relu4_2_heatmap.jpg" height="250px">
+<img src="https://github.com/blockchaindev91/python-convis-solution/blob/master/examples/output/tubingen-conv3_2-16.jpg" height="250px">
+<img src="https://github.com/blockchaindev91/python-convis-solution/blob/master/examples/output/tubingen_vgg19_relu4_2_heatmap.jpg" height="250px">
 </div>
 <div align="center">An output image from a single channel (left), and a layer heatmap (right):</div>
 
@@ -19,7 +19,6 @@ After installing the dependencies, you'll need to run the following script to do
 ```
 python models/download_models.py
 ```
-
 ### Usage:
 
 `convis.py` will create an output image for every channel in the specified layer:
