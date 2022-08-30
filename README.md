@@ -1,10 +1,10 @@
 # convis
-A tool to visualize convolutional, ReLU, and pooling layer activations on an input image. This is a PyTorch implementation of [htoyryla](https://github.com/htoyryla)'s [convis](https://github.com/htoyryla/convis).
+A tool to visualize convolutional, ReLU, and pooling layer activations on an input image.
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/ProGamerGov/pytorch-convis/master/examples/output/tubingen-conv3_2-16.jpg" height="250px">
-<img src="https://raw.githubusercontent.com/ProGamerGov/pytorch-convis/master/examples/output/tubingen_vgg19_relu4_2_heatmap.jpg" height="250px">
+<img src="https://raw.githubusercontent.com/blockchaindev91/pytorch-convis/master/examples/output/tubingen-conv3_2-16.jpg" height="250px">
+<img src="https://raw.githubusercontent.com/blockchaindev91/pytorch-convis/master/examples/output/tubingen_vgg19_relu4_2_heatmap.jpg" height="250px">
 </div>
 <div align="center">An output image from a single channel (left), and a layer heatmap (right):</div>
 
@@ -20,7 +20,7 @@ After installing the dependencies, you'll need to run the following script to do
 python models/download_models.py
 ```
 
-You can also place `convis.py` or `convis_heatmap.py` in your [neural-style-pt](https://github.com/ProGamerGov/neural-style-pt) directory, in order to more easily work with models and input images. 
+You can also place `convis.py` or `convis_heatmap.py` in your [neural-style-pt](https://github.com/blockchaindev91/neural-style-pt) directory, in order to more easily work with models and input images. 
 
 ### Usage:
 
