@@ -20,8 +20,6 @@ After installing the dependencies, you'll need to run the following script to do
 python models/download_models.py
 ```
 
-You can also place `convis.py` or `convis_heatmap.py` in your [neural-style-pt](https://github.com/blockchaindev91/neural-style-pt) directory, in order to more easily work with models and input images. 
-
 ### Usage:
 
 `convis.py` will create an output image for every channel in the specified layer:
